@@ -1,10 +1,10 @@
 #!/bin/bash
 #ele ajuda com o php em ambiente linux, não mexe porra
 # Diretório a ser monitorado
-DIR_TO_WATCH="/home/ama_goticas/Documentos/GitHub/projetos/php/textos"
+DIR_TO_WATCH="" #diretorio que sera copiado e monitorado
 
 # Diretório de destino
-DEST_DIR="/opt/lampp/htdocs/textos"
+DEST_DIR="" #localização
 
 # Função para tratar as alterações
 handle_change() {
