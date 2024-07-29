@@ -1,5 +1,14 @@
 #!/bin/bash
 #ele ajuda com o php em ambiente linux, não mexe porra
+
+##Instruções basicas de uso
+
+#executar como sudo , ./monitoramento.sh
+#ele vai copiar todos os arquivos do diretorio para outro sempre que for atualizado , TODOS.
+
+
+
+
 # Diretório a ser monitorado
 DIR_TO_WATCH="" #diretorio que sera copiado e monitorado
 
